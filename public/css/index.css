@@ -1,0 +1,45 @@
+.navbar-brand {
+    background-image: url('../svg/1182_animado.gif');
+    background-repeat: no-repeat;
+    height: 15vh;
+    width: 5vw;
+}
+
+
+.blog-post {
+    margin-bottom: 32px;
+    background: #d1ecf1;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.sidebar-module {
+    background-color: #d1ecf1;
+    padding: 20px;
+    margin: 0 10px 10px 10px;
+    font-size: 115%;
+    float: right;
+    width: 250px;
+    clear: right;
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+}
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
