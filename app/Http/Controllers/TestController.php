@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-use Illuminate\Foundation\Auth\User as User;
 use App\Http\Middleware\CheckAge as CheckAge;
 
 class TestController extends Controller

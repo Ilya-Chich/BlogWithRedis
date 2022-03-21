@@ -30,7 +30,8 @@
                         </div>
                         <div class="form-group">
                             <label for="description">Description</label>
-                            <textarea class="form-control" id="id_description" rows="3" name="description" placeholder="Description"></textarea>
+                            <textarea class="form-control" id="id_description" rows="3" name="description"
+                                      placeholder="Description"></textarea>
                         </div>
                         @if ($errors->any())
                             <div class="alert alert-danger">

@@ -42,7 +42,7 @@ class Handler extends ExceptionHandler
     /**
      * Render an exception into an HTTP response.
      *
-     * @param  Request  $request
+     * @param Request $request
      * @param Exception $exception
      * @return Response
      */

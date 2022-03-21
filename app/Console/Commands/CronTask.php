@@ -6,7 +6,8 @@ use Exception;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Log;
 
-class CronTask extends Command {
+class CronTask extends Command
+{
     /**
      * The name and signature of the console command.
      *
@@ -26,14 +27,16 @@ class CronTask extends Command {
      *
      * @return void
      */
-    public function __construct() {
+    public function __construct()
+    {
         parent::__construct();
     }
 
     /**
      * @throws Exception
      */
-    public function handle() : void {
+    public function handle(): void
+    {
         $login = env('DB_USERNAME', '');
         $pass = env('DB_PASSWORD', '');
         $filename = 'database_backup_' . time() . '.sql';
@@ -41,6 +44,5 @@ class CronTask extends Command {
         if ($output) {
             Log::error($output);
         }
-
     }
 }

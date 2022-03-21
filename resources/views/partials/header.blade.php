@@ -3,7 +3,7 @@
     <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item dropleft">
-                <a class="nav-link dropdown-toggle"  id="dropdown09" data-toggle="dropdown"
+                <a class="nav-link dropdown-toggle" id="dropdown09" data-toggle="dropdown"
                    aria-haspopup="true" aria-expanded="false">{{ Auth::user()->name ?? "Login" }}
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdown09">

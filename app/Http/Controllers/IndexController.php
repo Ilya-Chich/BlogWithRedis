@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Post;
 use Illuminate\Http\Response;
-use Illuminate\Support\Collection;
 
 class IndexController extends Controller
 {

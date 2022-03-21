@@ -61,7 +61,8 @@
                     @else
                         <p class="text-center text-primary">No Posts created Yet!</p>
                     @endif
-                </table><Br>
+                </table>
+                <Br>
             </main>
         </div>
     </div>
